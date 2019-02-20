@@ -9,7 +9,7 @@ class Person(object):
         else:
             return self.name + " is okay, I suppose"
 
-p1 = Person("Andrew")
+p1 = Person("Andrew", is_great=True)
 p2 = Person("Mattia")
 
 for p in [p1, p2]:
